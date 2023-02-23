@@ -14,4 +14,4 @@ function largerNumber(a,b) {
     }
 }
 
-largerNumber(7,7);
+largerNumber(17,-27);

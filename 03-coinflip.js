@@ -1,15 +1,12 @@
-let coinFlip = Math.round(Math.random()) + 1;
-// let  coinFlip = prompt("Heads or Tails?");
-
-// let coinFlip = let choice;
-
-// var choice = Math.random();
+let coinFlip = Math.round(Math.random());
 let choice = prompt("Heads or Tails");
+let flipResult = "tails";
 
 if (coinFlip == 1) {
-    let flipResult = "heads";
+    let coinFlip =  Math.round(Math.random());
+    let flipResult = "tails";
 } else {
-   let flipResult = "tails";
+   let flipResult = "heads";
 }
 
 if (flipResult == choice) {
